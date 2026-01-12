@@ -10,18 +10,22 @@ const projects = [
     {
         id: 1,
         image: "/assets/1.webp",
+        alt: "Modern Luxury Living Room Design with Futuristic Lighting",
     },
     {
         id: 2,
         image: "/assets/2.webp",
+        alt: "Futuristic Commercial Office Space Rendering",
     },
     {
         id: 3,
         image: "/assets/3.webp",
+        alt: "Minimalist Interior Architecture and zen space planning",
     },
     {
         id: 4,
         image: "/assets/4.webp",
+        alt: "Bespoke Furniture Design and Concept Art",
     }
 ];
 
@@ -54,7 +58,7 @@ export function FeaturedProjects() {
                             <Link href="/portfolio">
                                 <Image
                                     src={project.image}
-                                    alt="Project Image"
+                                    alt={project.alt}
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                                 />

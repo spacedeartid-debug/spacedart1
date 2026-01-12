@@ -58,7 +58,7 @@ export function Footer() {
                             <Link href="https://www.linkedin.com/in/vishal-shingadia/" target="_blank" className="hover:text-neon-blue transition-colors"><Linkedin size={20} /></Link>
                         </div>
                         <div className="mt-6 text-sm text-zinc-500">
-                            <p>info@spacedart.in</p>
+                            <p>info@spacedart.co.in</p>
                             <p>+91 9265738487</p>
                         </div>
                     </div>
